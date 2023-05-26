@@ -1,0 +1,101 @@
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #Q1{
+    background-color: #8ef2e6;
+    border-bottom: 1px solid #9577cf;
+    padding: 20px;
+    text-align: center;
+  }
+  #pagina4{
+    background-color: #564d8b;;
+  }
+  
+  .sidebar {
+    width: 130px;
+    background-color: #8ef2e6;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar-item {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #9577cf;
+    cursor: pointer;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #564d8b;
+  }
+  
+  .sidebar-item.active {
+    background-color: #564d8b; /* cor destacada para a página atual */
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(icones/imagem_2023-05-17_175157942-removebg-preview.png);
+    background-size: cover;
+    vertical-align: middle;
+  }
+  
+  .icon2 {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(icones/imagem_2023-05-18_214428470-removebg-preview.png);
+    background-size: cover;
+    vertical-align: middle;
+  }
+  
+  .icon3 {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(icones/abdc59c933a70920864a605b2f4bff1c.png);
+    background-size: cover;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(icones/imagem_2023-05-18_215821122-removebg-preview.png);
+    background-size: cover;
+    vertical-align: middle;
+  }
+  
+  #startButton,
+  #stopButton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px; /* Deixa o botão arredondado */
+    background-color: #8ef2e6; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+    align-self: flex-start; /* Alinha o botão com a câmera */
+    margin-right: 115px;  
+  }
+  
+  #startButton:hover,
+  #stopButton:hover {
+    background-color: #564d8b; /* Define a cor de fundo ao passar o mouse */
+  }
+  
+  .camera-element {
+    margin-right: 1100px; /* Ajuste esse valor conforme necessário */
+  }
+  

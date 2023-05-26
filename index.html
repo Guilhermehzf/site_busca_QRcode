@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tela Principal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <div id="Q1">
+    <span class="logo"></span>
+  </div>
+</header>
+
+<body>
+  <div class="sidebar">
+    <a href="../site_cadastro/index.html">
+      <div class="sidebar-item" id="pagina2">
+      <span class="icon3"></span>
+      </div>
+    </a>
+    <a href="../site_busca_escrita/index.html">
+    <div class="sidebar-item" id="pagina3">
+      <span class="icon2"></span><br>
+    </div>
+    </a>
+    <div class="sidebar-item" id="pagina4">
+      <span class="icon"></span><br>
+    </div>
+  </div>
+  <div class="content">
+    <div id="content">
+      <button id="startButton" onclick="startScanner()">Iniciar Scanner</button>
+      <button id="stopButton" onclick="stopScanner()">Parar Scanner</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
